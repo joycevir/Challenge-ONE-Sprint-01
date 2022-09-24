@@ -148,7 +148,7 @@ function copiar() {
 
 
 function validar(frase) {
-    var caracteres = /([A-Z@#$&~*.!%=?¡¿`´àèìòùáéíóú()/])/
+    var caracteres = /([A-Z@#$&~*.!'"%=?¡¿`´àèìòùáéíóú()/])/
     
     for (var i = 0; i < frase.length; i++) {
         if (caracteres.test(texto()) == true){
