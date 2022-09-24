@@ -64,6 +64,7 @@ main {
 
 .aviso {
 	color: white;
+	margin-left:30px;
 
 }
 
@@ -274,8 +275,8 @@ input{
 
 	}
 
-	.imagenAviso{
-		margin-left: 0px;
+	.imagenaviso{
+		margin-left: -25px;
 
 
 	}
@@ -332,10 +333,14 @@ input{
 		height: 40%;
 	}	
 
-	.imagenAviso{
-		margin: 0px;
+	.aviso{
+		margin-left:0px;
 	}
 
+	.imagenAviso{
+		margin-left:5px ;
+
+	}
 	.encriptar, .desencriptar{
 		width: 90%;
 		height: 50px;
