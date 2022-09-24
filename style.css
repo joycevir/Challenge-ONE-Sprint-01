@@ -1,0 +1,376 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+	
+}
+body {
+	background-image: url(imagenes/imagen4.jpg);
+
+	
+}
+
+header {
+	width: 100%;
+	height: 40px;	
+
+}
+
+.logo {
+	margin-left: 25px;
+	margin-top: 5px;
+	width: 40px;
+	height: 40px;
+	color: #c6e6f5;
+	
+}
+
+main {
+	width: 100%;
+	height: 90%;
+
+	display: inline-flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+
+}
+
+
+.izquierda {
+	width: 70%;
+	border: 5px;
+}
+
+.miarea {
+	width: 80%;
+	height: 70%;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	resize: none;
+	font-size: 25;
+	color: #0a0a0a ;
+	border-radius: 5px;
+	outline: none;
+	background-color: #c6e6f5 ;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-indent: 5px;
+	
+
+}
+
+
+
+.aviso {
+	color: white;
+
+}
+
+.imagenAviso {
+	margin-left:100px;
+	
+	
+}
+
+.dos-botones {
+	text-align: center;	
+	
+}
+
+.encriptar, .desencriptar {
+	width: 25%;
+	height: 7%;
+	margin: auto;
+	margin-top: 5px;
+	background-color: #0A3871;
+	border-radius: 5px;
+	color: white;
+
+	
+}
+
+
+
+.derecha {
+	width: 20%;
+	height: 90%;
+	
+	border-radius:35px;
+	margin-right: 50px;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: #c6e6f5;
+}
+
+.munieco {
+	
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	padding-top: 65;	
+
+}
+
+.tamanio-munieco {
+	width: 260px;
+	height: 300px;
+	
+	
+}
+
+
+.seccion-h3 {
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	color: #0a0a0a;
+	
+	
+
+}
+
+.aviso-mensaje{
+	margin-top: 70px;
+}
+
+.parrafo {
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	margin-bottom: 30%;
+	color: #0a0a0a;
+
+}
+
+.mensaje-resultado {
+	margin-top: 0px;
+	padding: 15px;
+	width: 95%;
+	height:80%;
+	text-align: center;
+
+}
+
+.mensaje-encriptado{
+	width: 100%;
+	height: 70%;	
+	display: block;
+	resize: none;
+	font-size: 15px;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	margin-top: none;
+	background-color: #c6e6f5;
+	font-size: 25px;
+
+
+}
+
+.boton-copiar {
+	width: 80%;
+	height: 7%;
+	border-radius: 10px;
+	margin: auto;
+	display: block;
+	background-color: #0A3871;
+	color: white;
+	
+
+}
+
+input{
+	background: linear-gradient(116.49deg,#00d9df,#0036df 66.15%,#e700b7);
+	
+}
+
+
+
+
+.pie-pagina {
+	width: 100%;
+	color: white;
+	text-align: center;
+	
+}
+
+.desaparecer {
+	display: none;
+}
+
+@media  (max-width: 1000px){
+
+
+	header {
+		width: 100%;
+		height: 60px;	
+	
+	}
+
+
+	.logo {
+		margin-left: 25px;
+		margin-top: 5px;
+		width: 60px;
+		height: 60px;
+		color: #c6e6f5;
+		
+	}
+
+	main {
+		width: 100%;
+		height: 75%;
+	
+	}
+
+	.section {
+		width: 50%;
+		height: 100%;
+		
+	}	
+
+	.izquierda {
+		width: 90%;
+		border: 5px;
+		margin: auto;
+		height: 80%;
+	}
+
+	.miarea {
+		width: 100%;
+		height: 80%;
+		margin:auto;
+		margin-top: 20px;
+		resize: none;
+		font-size: 25;
+		color: #0a0a0a ;
+		border-radius: 5px;
+		outline: none;
+		background-color: #c6e6f5 ;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		text-indent: 5px;
+	}
+
+	.derecha {
+		width: 90%;
+		height: 35%;
+		margin: auto;
+		border-radius:35px;
+		margin-top: 35px;
+		
+		
+		
+		background-color: #c6e6f5;
+	}
+		
+	
+	.encriptar, .desencriptar{
+		width: 47%;
+		height: 70px;
+		margin-bottom:20px;
+	
+
+
+	}
+
+	.imagenAviso{
+		margin-left: 0px;
+
+
+	}
+	.munieco{
+		display: none;
+	}
+
+	.seccion-h3{
+		height: 20%;
+	}
+
+	.parrafo{
+		margin-bottom: 20px;
+	}
+
+	.salto-linea{
+		display: none;
+	}
+
+	.mensaje-resultado{
+		height: 60%;
+
+
+	}
+
+	.mensaje-encriptado{
+		height: 100%;
+	}
+
+	.boton-copiar{
+		height:45px;
+		margin-top: 10px;
+
+	}
+
+	footer{
+		margin-top:200px;
+		color: white;
+
+	}
+}
+
+
+@media  (min-width: 100px) and  (max-width: 539px){
+	
+
+	.miarea{
+		height: 70%;
+		font-size:15px;
+	}
+
+	.derecha{
+		margin-top: 60px;
+		height: 40%;
+	}	
+
+	.imagenAviso{
+		margin: 0px;
+	}
+
+	.encriptar, .desencriptar{
+		width: 90%;
+		height: 50px;
+	}
+
+	.seccion-h3{
+		margin-bottom:45px;
+		padding: 10px;
+	}
+	
+	.mensaje-encriptado{
+		height: 100%;
+		font-size:15px;
+		
+	}
+
+	.boton-copiar{
+		margin-top: 25px;
+	}
+
+	.aviso-mensaje{
+		font-size: 26px;
+		margin-top: 1px;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+}
